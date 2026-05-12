@@ -83,7 +83,7 @@ export const projects = [
     name: "BENCH-CHAT - A chatting mobile app (Android APP)",
     description:
       "A modern chatting application for users to connect and share messages in real-time, fostering communication and community building.",
-    href: "",
+    href: "https://github.com/Lokesh-dev309/ChatApp_Bench",
     image: "/assets/projects/benchchat.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
@@ -98,7 +98,7 @@ export const projects = [
     name: "BENCH - A SOCIAL MEDIA PLATFORM (Android APP)",
     description:
       "A modern, responsive website for a Japanese restaurant offering an immersive dining experience.",
-    href: "",
+    href: "https://github.com/Lokesh-dev309/bench11",
     image: "/assets/projects/bench.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
