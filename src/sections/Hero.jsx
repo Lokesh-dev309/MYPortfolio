@@ -59,7 +59,7 @@ results driven webs/apps`;
           </Environment>
         </Canvas>
       </figure>
-      <ResumeButtons className="absolute bottom-6 left-150"/>
+      <ResumeButtons/>
       
     </section>
   );
