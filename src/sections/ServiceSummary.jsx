@@ -1,6 +1,7 @@
 import { useGSAP} from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
+// import ResumeButtons from "../components/ResumeButtons";
 gsap.registerPlugin(ScrollTrigger);
 
 const ServiecSummary = () => {

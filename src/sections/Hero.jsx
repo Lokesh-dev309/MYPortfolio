@@ -3,13 +3,14 @@ import { Planet } from "../components/Planet";
 import { Environment, Float, Lightformer } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
+import ResumeButtons from "../components/ResumeButtons";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   const text = `I help growing brands and startups gain an
 unfair advantage through premium
 results driven webs/apps`;
   return (
-    <section id="home" className="flex flex-col justify-end min-h-screen">
+    <section id="home" className="flex flex-col justify-end min-h-screen relative">
       <AnimatedHeaderSection
         subTitle={"404 No Bugs Found"}
         title={"Lokesh Kumar"}
@@ -58,6 +59,8 @@ results driven webs/apps`;
           </Environment>
         </Canvas>
       </figure>
+      <ResumeButtons className="absolute bottom-6 left-150"/>
+      
     </section>
   );
 };
